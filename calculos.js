@@ -26,9 +26,8 @@ function calcularTotais() {
 document.getElementById('btn_calcular').addEventListener('click', calcularTotais);
 
 // ouvintes para os campos de entrada, (aqui o valor colocado nos campos atualizaria sozinho já fazendo os calculos)
-/* const inputs = document.querySelectorAll('input[type="number"]');
+const inputs = document.querySelectorAll('input[type="number"]');
 inputs.forEach(input => {
     input.addEventListener('input', calcularTotais);
     input.addEventListener('blur', calcularTotais);
 })
- */
